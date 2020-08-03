@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:calc": "jest calc.test.js",
+    "test:async": "jest async.test.js",
+    "test:matcher": "jest matcher.test.js"
+
   },
   "repository": {
     "type": "git",

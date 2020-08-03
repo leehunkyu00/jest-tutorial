@@ -1,5 +1,3 @@
-
-
 exports.getCalcurator = (function() {
     var resValue = 0;
     var lastValue = 0;
@@ -49,7 +47,7 @@ exports.getCalcurator = (function() {
             calc("-", val);
             return resValue;
         },
-        time: function(val) {
+        times: function(val) {
             calc("*", val);
             return resValue;
         },
